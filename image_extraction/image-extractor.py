@@ -3,15 +3,15 @@ import copy
 import os
 import numpy as np
 import cv2
-import math
-import sys
 
 WINDOW_NAME = 'Image Extractor'
 
 # command line arguments
+
 parser = argparse.ArgumentParser(description="Process image")
 parser.add_argument('--image', help="Path to image file")
 parser.add_argument('--output', help="Path to output destination")
+
 # height and image for resolution
 parser.add_argument('--height', help="height of saved image")
 parser.add_argument('--width', help="width of saved image")
